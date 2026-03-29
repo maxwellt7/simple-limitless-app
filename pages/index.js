@@ -179,7 +179,7 @@ export default function Home() {
                 className="w-full p-2 border rounded"
                 value={apiKeys.limitless}
                 onChange={(e) => handleApiKeyChange('limitless', e.target.value)}
-                placeholder="sk-2a4a4d9e-..."
+                placeholder="Enter your Limitless API key"
               />
             </div>
             
@@ -193,7 +193,7 @@ export default function Home() {
                 className="w-full p-2 border rounded"
                 value={apiKeys.openai}
                 onChange={(e) => handleApiKeyChange('openai', e.target.value)}
-                placeholder="sk-proj-W1Jn2wQ7g..."
+                placeholder="Enter your OpenAI API key"
               />
             </div>
             
@@ -207,7 +207,7 @@ export default function Home() {
                 className="w-full p-2 border rounded"
                 value={apiKeys.anthropic}
                 onChange={(e) => handleApiKeyChange('anthropic', e.target.value)}
-                placeholder="sk-ant-api03-BT8Q2PA..."
+                placeholder="Enter your Anthropic API key"
               />
             </div>
             

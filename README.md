@@ -37,7 +37,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 ## About This Version
 
 This is a simplified version that uses:
-- Next.js 12.3.4 and React 17.0.2 for maximum stability
+- Next.js 14.2.x and React 18.2.x for maximum stability
 - Tailwind CSS loaded via CDN (no build process needed)
 - No TypeScript or complex dependencies
 - Simulated data instead of actual API calls
@@ -46,9 +46,9 @@ The app demonstrates the UI and interaction flow without requiring actual API co
 
 ## API Keys
 
-The app is designed to work with:
-- Limitless API Key: `sk-2a4a4d9e-23d2-4e5a-aba1-3e3809b4d287`
-- OpenAI API Key: `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`
-- Anthropic API Key: `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`
+The app requires the following API keys (see `.env.example`):
+- **Limitless API Key** (required)
+- **OpenAI API Key** (at least one LLM provider required)
+- **Anthropic API Key** (at least one LLM provider required)
 
-These keys are stored in your browser's localStorage and are not sent to any server in this demo version.
+Keys are stored in your browser's localStorage and are not sent to any server in this demo version.
